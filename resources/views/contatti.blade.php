@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot name="title">
+        Contatti
+    </x-slot>
     <main class="flex-shrink-0">
 
         <x-navbar />

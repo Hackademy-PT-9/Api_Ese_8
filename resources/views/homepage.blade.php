@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot name="title">
+        Homepage
+    </x-slot>
     <!-- Navigation-->
     <x-navbar />
     <main class="flex-shrink-0">

@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot name="title">
+        Elenco articoli
+    </x-slot>
     <x-navbar />
     <div class="album py-5 bg-body-tertiary">
         <div class="container-fluid">
