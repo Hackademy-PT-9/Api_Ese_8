@@ -11,12 +11,12 @@
     </section>
     <script>
         const list = document.getElementById('lista-api');
-        fetch('{{ Route('api.prodotti') }}')
+        fetch('{{ Route('api.regioni') }}')
             .then(response => response.json())
             .then(elements => {
                 console.log(elements);
-                for (let item of elements) {
-                    list.innerHTML += `<li>${item.title}</li>`
+                for (let region of elements) {
+                    list.innerHTML += `<li>${region.name}</li>`
                 }
             })
     </script>
