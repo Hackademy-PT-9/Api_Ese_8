@@ -6,7 +6,10 @@
 
     <main class="flex-shrink-0 text-bg-dark p-3">
         <!-- Header-->
-        <header class="py-5">
+        <div class="text-success">
+            <hr>
+        </div>
+        <header>
             <div class="container px-5">
 
                 <div class="row justify-content-center">
@@ -77,45 +80,55 @@
         </section>
         <!-- Team members section-->
         <section class="py-5 bg-light">
-            <div class="container px-5 my-5">
-                <div class="text-center">
-                    <h2 class="fw-bolder">Our team</h2>
-                    <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
+            <div class="container  ">
+                <div class="row text-center d-flex align-items-center">
+                    <h2 class="fw-bolder text-success">Categorie</h2>
+                    <p class="lead fw-normal text-muted mb-5">Goditi lo shopping!</p>
                 </div>
-                <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5 mb-5 mb-xl-0">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4"
-                                src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Ibbie Eckart</h5>
-                            <div class="fst-italic text-muted">Founder &amp; CEO</div>
-                        </div>
+
+                <div class="row d-flex justify-content-center align-items-center">
+
+                    <div class="col-12 col-md-5 text-center ">
+                        <img class="img-fluid object-fit-cover border rounded  mw-100 "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;"
+                            src="\immagini\modadonna (2).jpg" alt="..." />
+                        <h5 class="fw-bolder text-success pt-4">Moda donna</h5>
+                        <a href="{{ route('index') }}" class="btn btn-outline-success">Vai al catalogo
+                        </a>
                     </div>
-                    <div class="col mb-5 mb-5 mb-xl-0">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4"
-                                src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Arden Vasek</h5>
-                            <div class="fst-italic text-muted">CFO</div>
-                        </div>
+
+
+                    <div class="col-12 col-md-5 text-center ">
+                        <img class="img-fluid object-fit-cover border rounded  mw-100 "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;"
+                            src="\immagini\modauomo.jpg" alt="..." />
+                        <h5 class="fw-bolder text-success pt-4">Moda uomo</h5>
+                        <a href="{{ route('index') }}" class="btn btn-outline-success">Vai al catalogo
+                        </a>
                     </div>
-                    <div class="col mb-5 mb-5 mb-sm-0">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4"
-                                src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Toribio Nerthus</h5>
-                            <div class="fst-italic text-muted">Operations Manager</div>
-                        </div>
+
+                </div>
+
+                <div class="row d-flex justify-content-center align-items-center mt-4">
+
+                    <div class="col-12 col-md-5 text-center ">
+                        <img class="img-fluid object-fit-cover border rounded  mw-100 "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;"
+                            src="\immagini\elettronica.jpg" alt="..." />
+                        <h5 class="fw-bolder text-success pt-4">Elettronica</h5>
+                        <a href="{{ route('index') }}" class="btn btn-outline-success">Vai al catalogo
+                        </a>
                     </div>
-                    <div class="col mb-5">
-                        <div class="text-center">
-                            <img class="img-fluid rounded-circle mb-4 px-4"
-                                src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                            <h5 class="fw-bolder">Malvina Cilla</h5>
-                            <div class="fst-italic text-muted">CTO</div>
-                        </div>
+                    <div class="col-12 col-md-5 text-center ">
+                        <img class="img-fluid object-fit-cover border rounded  mw-100 "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;"
+                            src="\immagini\gioielli.jpg" alt="..." />
+                        <h5 class="fw-bolder text-success pt-4">Gioielli</h5>
+                        <a href="{{ route('index') }}" class="btn btn-outline-success">Vai al catalogo
+                        </a>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
