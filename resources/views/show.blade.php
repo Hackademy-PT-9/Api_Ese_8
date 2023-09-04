@@ -3,7 +3,7 @@
         Dettaglio articolo
     </x-slot>
     <x-navbar />
-    <div class=" d-flex justify-content-center align-items-center ">
+    <div class=" d-flex justify-content-center align-items-center text-center ">
         <x-card :item="$product" />
 
 

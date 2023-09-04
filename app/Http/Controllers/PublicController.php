@@ -30,4 +30,9 @@ class PublicController extends Controller
     {
         return view('homepage');
     }
+
+    public function test()
+    {
+        return view('test');
+    }
 }
